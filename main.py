@@ -63,8 +63,8 @@ def index(req, resp):
 if __name__ == "__main__":
     if "production" in sys.argv:
         # Bind to all interfaces, so can access on localhost with:
-        # docker run -p 8000:8000 -t <image>
-        api.run(address="0.0.0.0", port=8000)
+        # docker run -p 8000:80 -t <image>
+        api.run(address="0.0.0.0", port=80)
     if "debug" in sys.argv:
         # Don't bind to all interfaces,
         # so no macOS security popup on startup.
