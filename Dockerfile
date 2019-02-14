@@ -14,7 +14,5 @@ ADD export.pkl export.pkl
 # Run it once to trigger resnet download
 RUN python main.py
 
-EXPOSE 8000
-
 # Start the server
 CMD ["python", "main.py", "production"]
