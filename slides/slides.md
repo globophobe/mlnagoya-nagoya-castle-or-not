@@ -1,135 +1,157 @@
 ---
 
-# 名古屋城なのか
-## Nagoya castle or not
+# Nagoya castle or not
+
+名古屋城なのか
 
 ---
 
-These slides are already uploaded to Connpass.
-これらのスライドはすでにConnpassにアップロードされています。
+# These slides are at Connpass. So, you can check them out.
+
+スライドはConnpassにアップされています。是非みてください。
 
 ---
 
-Last year, at the Python Tokai at Nagoya castle, someone did an LT about something related to classification of images of Nagoya castle. 
+# Last year, at Python Tokai at Nagoya castle, someone did a LT about something related to classification of images of Nagoya castle. 
 
 昨年、名古屋城で開催されたPython東海で、名古屋城の画像の分類に関連するLTがありました。
 
 ---
 
-I thought it was a little hard.
+# I thought it was a little hard.
 
 少し難しいと思いました。
 
 ---
 
-Recently, I finished [Fast.ai](https://course.fast.ai/ version 3) lesson 1 & 2.
+# Recently, I finished [Fast.ai](https://course.fast.ai/version 3) lesson 1 & 2.
 
 最近、私はFast.aiバージョン3のレッスン1と2を終えました。
 
 ---
 
-In lesson 1, there was an example, "baseball" or "cricket".
+# In lesson 1, there was an example, "baseball" or "cricket".
 
 レッスン1では、「野球」または「クリケット」の例がありました。
 
-It was trained with 30 images.
+---
+
+# It was trained with 30 images.
 
 それは30の画像で訓練されました。
 
 ---
 
-![](https://github.com/hiromis/notes/blob/master/lesson1/6.png)
+![](https://raw.githubusercontent.com/hiromis/notes/master/lesson1/6.png)
 
 ---
 
-So, I decided to make a classifier for Nagoya castle, Osaka castle, and Kumamoto castle.
+# So, I decided to make a classifier for Nagoya castle, Osaka castle, and Kumamoto castle.
 
 それで、名古屋城、大阪城、それとも熊本城の分類器を作ることにしました。
 
 ---
 
-# The result:
-## その結果は：
+# I put it in a docker container, and uploaded it to Google Compute Engine.
 
-I uploaded it to Google Compute Engine in a docker container.
-
-私はdockerのコンテナーでGoogle Compute Engineにそれをアップロードしました。
+dockerのコンテナーを作って、Google Compute Engineにアップしました。
 
 [Click here](http://35.221.88.219/)
-ここをクリック
+[ここをクリック](http://35.221.88.219/)
 
 ---
 
-What is Fast.ai?
+![](https://upload.wikimedia.org/wikipedia/commons/1/1d/080405_nagoya_csl_sakura.JPG)
 
-Fast.aiてなに？
+Nagoya castle?
 
----
-
-It's a free deep learning course taught by Jeremy Howard. 
-
-それはHoward Jeremyさんが教えられた無料機械学習コースです。
+[Click here](http://35.221.88.219/classify-url?url=https://upload.wikimedia.org/wikipedia/commons/1/1d/080405_nagoya_csl_sakura.JPG)
+[ここをクリック](http://35.221.88.219/classify-url?url=https://upload.wikimedia.org/wikipedia/commons/1/1d/080405_nagoya_csl_sakura.JPG)
 
 ---
 
-https://github.com/hiromis/notes/blob/master/lesson1/2.png
+![](https://upload.wikimedia.org/wikipedia/commons/3/38/Matsumoto_Castle05s5s4592.jpg)
 
-以前、Kaggleの位１になった方です。
+Nagoya castle?
 
----
+[Click here](http://35.221.88.219/classify-url?url=https://upload.wikimedia.org/wikipedia/commons/3/38/Matsumoto_Castle05s5s4592.jpg)
 
-Fast.ai has 4 courses, the first is "Practical Deep Learning for Coders".
-
-Fast.aiには4つのコースがあり、最初のコースは「実践的なディープラーニング」です。
+[ここをクリック](http://35.221.88.219/classify-url?url=https://upload.wikimedia.org/wikipedia/commons/3/38/Matsumoto_Castle05s5s4592.jpg)
 
 ---
 
-Jeremy Howard says, "The...focus of the whole course...is how to do...'transfer learning.'" 
+# Dockerfile and source code is on [github](https://github.com/globophobe/nagoya-castle-or-not).
 
-Howardさんは「コース全体の焦点は、転送学習のやり方です」
-
----
-
-Lesson 1 explains to create a CNN with ResNet, and train with fit_one_cycle.
-
-レッスン1では、ResNetを使用してCNNを作成し、fit_one_cycleを使用してトレーニングする方法について説明します。
+Dockerfileとソースコードは[github](https://github.com/globophobe/nagoya-castle-or-not)にあります。
 
 ---
 
-"One cycle learning" is explained in a paper that was released in April 2018.
+# What is Fast.ai?
+
+Fast.aiて何？
+
+---
+
+# It's a free deep learning course.
+
+無料機械学習コースです。
+
+---
+
+# The teacher was Kaggle #1.
+
+先生はKaggleの位１でした。
+![](https://raw.githubusercontent.com/hiromis/notes/master/lesson1/2.png)
+
+---
+
+# Fast.ai has 4 courses. The first is "Practical Deep Learning for Coders".
+
+Fast.aiには4つのコースがあります。最初のコースは「実践的なディープラーニング」です。
+
+---
+
+# Lesson 1 and 2 explains to create a CNN with ResNet for transfer learning, and train with 1 cycle policy.
+
+レッスン1と2では、ResNetを使用してトランスファーラーニング用にCNNを作成し、1サイクルポリシーでトレーニングをするについて説明します。
+
+---
+
+# "One cycle learning" is explained in a paper that was released in April 2018.
 
 「1サイクル学習」は、2018年4月に発表された論文で説明されています。
 
 [Click here](https://arxiv.org/abs/1803.09820)
+[ここをクリック](https://arxiv.org/abs/1803.09820)
 
 ---
 
-I would be thankful, if a smarter person can explain "one cycle learning"
+# I would be thankful, if a smarter person can explain "one cycle learning"
 
-もっと賢い人が「1サイクル機械学習」を説明できたらありがたいです。
+もっと賢い人が「1サイクル機械学習」を説明出来ればありがたいです。
 
 ---
 
-I decided to use Google Colaboratory for the Fast.ai course.
+# I decided to use Google Colaboratory for the Fast.ai course.
 
 Fast.aiコースにGoogle Colaboratoryを使用することにしました。
 
 ---
 
-Google Colaboratory has support for Fast.ai
+# Google Colaboratory has support for Fast.ai
 
 Google ColaboratoryはFast.aiをサポートしています。
 
-[Click here](https://colab.research.google.com/notebooks/welcome.ipynb#github=true)
+![](https://raw.githubusercontent.com/globophobe/nagoya-castle-or-not/master/slides/img/colaboratory-fastai-v3.png)
 
 ---
 
-I used Google Drive to store the training data.
+# I used Google Drive to store the training data.
 
 Google Driveを使用してトレーニングデータを保存しました。
 
 ---
 
-Let's have a look.
+# Let's have a look.
 
 みてみましょう。
