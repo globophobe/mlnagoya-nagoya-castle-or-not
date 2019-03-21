@@ -30,7 +30,7 @@ Connpassでは、私は「globophobe」です。
 
 ---
 
-# Recently, I finished [Fast.ai](https://course.fast.ai/version 3) lesson 1 & 2.
+# Recently, I finished [Fast.ai](https://course.fast.ai/) lesson 1 & 2.
 
 最近、私はFast.aiバージョン3のレッスン1と2を終えました。
 
