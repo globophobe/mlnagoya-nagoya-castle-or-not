@@ -12,6 +12,12 @@
 
 ---
 
+# On Connpass, I'm "globophobe".
+
+Connpassでは、私は「globophobe」です。
+![](https://raw.githubusercontent.com/globophobe/nagoya-castle-or-not/master/slides/img/arex.png)
+
+---
 # Last year, at Python Tokai at Nagoya castle, someone did a LT about something related to classification of images of Nagoya castle. 
 
 昨年、名古屋城で開催されたPython東海で、名古屋城の画像の分類に関連するLTがありました。
@@ -61,6 +67,12 @@ dockerのコンテナーを作って、Google Compute Engineにアップしま�
 
 ---
 
+# Dockerfile and source code is on [github](https://github.com/globophobe/nagoya-castle-or-not).
+
+Dockerfileとソースコードは[github](https://github.com/globophobe/nagoya-castle-or-not)にあります。
+
+---
+
 ![](https://upload.wikimedia.org/wikipedia/commons/1/1d/080405_nagoya_csl_sakura.JPG)
 
 Nagoya castle?
@@ -80,9 +92,13 @@ Nagoya castle?
 
 ---
 
-# Dockerfile and source code is on [github](https://github.com/globophobe/nagoya-castle-or-not).
+# Its's Matsumoto castle. The classifier wasn’t trained to recognize it.
+それが松本城でした。 分類器はそれを認識するように訓練されていませんでした。
 
-Dockerfileとソースコードは[github](https://github.com/globophobe/nagoya-castle-or-not)にあります。
+---
+
+# More about this later.
+それについてもう少し後で。
 
 ---
 
@@ -92,9 +108,9 @@ Fast.aiて何？
 
 ---
 
-# It's a free deep learning course.
+# It's a free deep learning curriculum.
 
-無料機械学習コースです。
+無料機械学習カリキュラムです。
 
 ---
 
@@ -132,6 +148,11 @@ Fast.aiには4つのコースがあります。最初のコースは「実践的
 
 ---
 
+# In essence, it’s fast.
+要するに、それは速いです。
+
+---
+
 # I decided to use Google Colaboratory for the Fast.ai course.
 
 Fast.aiコースにGoogle Colaboratoryを使用することにしました。
@@ -155,3 +176,9 @@ Google Driveを使用してトレーニングデータを保存しました。
 # Let's have a look.
 
 みてみましょう。
+
+---
+
+# That’s all. Thanks for listening.
+
+以上です。ご清聴ありがとうございます。
